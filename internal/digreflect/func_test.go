@@ -110,8 +110,8 @@ func TestInspectFunc(t *testing.T) {
 			desc:           "vendored dependency",
 			give:           myrepository.VendoredDependencyFunction(),
 			wantName:       "Panic",
-			wantPackage:    "mydependency",
-			wantFileSuffix: "go.uber.org/dig/internal/digreflect/tests/myrepository.git/vendor/mydependency/panic.go",
+			wantPackage:    "foo.bar/mydependency",
+			wantFileSuffix: "go.uber.org/dig/internal/digreflect/tests/myrepository.git/vendor/foo.bar/mydependency/panic.go",
 		},
 	}
 

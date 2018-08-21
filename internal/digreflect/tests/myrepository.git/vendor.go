@@ -20,7 +20,7 @@
 
 package myrepository
 
-import "mydependency"
+import "foo.bar/mydependency"
 
 // VendoredDependencyFunction returns the function for a vendored dependency
 // of this repository.
